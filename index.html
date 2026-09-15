@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How America Pays — free spreadsheets</title>
+<meta name="description" content="The spreadsheet from every How America Pays video. Free, no signup.">
+<style>
+  :root{
+    --navy:#0F1B2D; --offwhite:#F2F0EB; --muted:#8A9AAE; --amber:#E8A33D;
+    --panel:#16243A; --line:#24354f;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--navy); color:var(--offwhite);
+    font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    padding-block:56px; padding-left:20px; padding-right:20px;
+  }
+  .wrap{max-width:760px;margin:0 auto}
+  .mark{display:flex;flex-direction:column;gap:5px;width:86px;margin-bottom:26px}
+  .mark i{display:block;height:13px;border-radius:2px;background:var(--offwhite)}
+  .mark i:first-child{width:32px;background:var(--amber)}
+  .mark i:nth-child(2){width:50px}
+  .mark i:nth-child(3){width:68px}
+  .mark i:nth-child(4){width:86px}
+  h1{font-size:clamp(28px,5vw,40px);line-height:1.15;margin:0 0 10px;letter-spacing:-.4px}
+  .tag{color:var(--muted);margin:0 0 34px;font-size:17px}
+  a{color:var(--amber)}
+  h2{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);
+     margin:44px 0 16px;font-weight:600}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+        padding:20px 22px;margin-bottom:14px}
+  .card h3{margin:0 0 4px;font-size:19px}
+  .card p{margin:0 0 16px;color:var(--muted);font-size:15px}
+  .dl{display:inline-block;background:var(--amber);color:var(--navy);font-weight:700;
+      text-decoration:none;padding:11px 20px;border-radius:8px;font-size:15px}
+  .dl:hover{filter:brightness(1.08)}
+  .year{display:inline-block;border:1px solid var(--line);color:var(--muted);
+        border-radius:999px;padding:2px 10px;font-size:13px;margin-left:8px;vertical-align:2px}
+  ul{padding-left:20px} li{margin-bottom:10px;color:var(--muted)}
+  li b{color:var(--offwhite);font-weight:600}
+  .note{border-left:3px solid var(--amber);padding:2px 0 2px 16px;color:var(--muted);
+        margin:18px 0;font-size:15px}
+  footer{margin-top:52px;padding-top:24px;border-top:1px solid var(--line);
+         color:var(--muted);font-size:13.5px}
+  table{width:100%;border-collapse:collapse;font-size:15px;margin-top:6px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+  .scroll{overflow-x:auto}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="mark" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+
+  <h1>How America Pays</h1>
+  <p class="tag">Every video ships with the spreadsheet that does the math.
+     Free, no signup, no email.</p>
+
+  <h2>Spreadsheets</h2>
+
+  <div class="card">
+    <h3>Tax bracket calculator <span class="year">2026 tax year</span></h3>
+    <p>Type in a salary and see the tax in every bracket, the total, the effective
+       rate on gross and on taxable income, and the marginal rate. From the video
+       <em>Tax Brackets Don't Work The Way You Think</em>.</p>
+    <a class="dl" href="001-tax-brackets/bracket-calculator-2026.xlsx" download>Download .xlsx</a>
+  </div>
+
+  <h2>How figures are sourced</h2>
+  <p style="color:var(--muted)">Every number is read on the page of the agency that
+     issues the rule — the IRS, the CFPB, the SSA, the Department of Labor. Never
+     from a blog, a news site, another video, or an AI. Secondary sources are fine
+     for understanding something; they are never used to establish a figure,
+     because they copy each other and an error spreads fast.</p>
+
+  <ul>
+    <li><b>001 — Tax brackets.</b>
+      IRS IR-2025-103 / Revenue Procedure 2025-32 —
+      <a href="https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill">2026 rate schedules and standard deduction</a>.
+      IRS FS-2025-10, Q7 —
+      <a href="https://www.irs.gov/affordable-care-act/individuals-and-families/questions-and-answers-on-the-premium-tax-credit">the 400% federal poverty line ceiling</a>.
+    </li>
+  </ul>
+
+  <h2>Corrections</h2>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Date</th><th>Video</th><th>What was wrong</th><th>Now</th></tr></thead>
+      <tbody><tr><td>—</td><td>—</td><td>Nothing yet</td><td>—</td></tr></tbody>
+    </table>
+  </div>
+  <p class="note">Errors get posted here and as a pinned comment on the video.
+     Nothing is silently edited, and old versions of a file stay available.</p>
+
+  <h2>Figures change every year</h2>
+  <p style="color:var(--muted)">A file named <code>-2026</code> holds 2026 rules and
+     becomes wrong on January 1st. When a year rolls over a new file is published
+     next to the old one. The old one is never overwritten, because someone may
+     have been using it for months.</p>
+
+  <footer>
+    <p><strong>Educational information, not financial, tax, or legal advice.</strong>
+       I am not a financial advisor, CPA, or attorney. Nothing here is a
+       recommendation to buy, sell, or hold anything, or to take any specific action
+       with your money. Your situation differs from the examples used. Consult a
+       licensed professional before making a decision. Verify any figure against the
+       primary sources above before relying on it.</p>
+    <p><a href="https://www.youtube.com/@howamericapays">youtube.com/@howamericapays</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
