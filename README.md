@@ -11,7 +11,7 @@ Free, no signup, no email. They live here.
 
 | # | Video | Spreadsheet | Tax year |
 |---|---|---|---|
-| 001 | Tax Brackets Don't Work The Way You Think | [bracket-calculator-2026.xlsx](001-tax-brackets/bracket-calculator-2026.xlsx) | 2026 |
+| 001 | Tax Brackets Don't Work The Way You Think | [bracket-calculator-2026.xlsx](bracket-calculator-2026.xlsx) | 2026 |
 
 Each file has three tabs: **Calculator** (type your numbers in the amber cell),
 **Rates** (the figures used, with the tax year in the header), and **Sources**
