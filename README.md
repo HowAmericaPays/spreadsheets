@@ -12,6 +12,7 @@ Free, no signup, no email. They live here.
 | # | Video | Spreadsheet | Tax year |
 |---|---|---|---|
 | 001 | Tax Brackets Don't Work The Way You Think | [bracket-calculator-2026.xlsx](bracket-calculator-2026.xlsx) | 2026 |
+| 002 | Your Paycheck, Line By Line | [paycheck-breakdown-2026.xlsx](paycheck-breakdown-2026.xlsx) | 2026 |
 
 Each file has three tabs: **Calculator** (type your numbers in the amber cell),
 **Rates** (the figures used, with the tax year in the header), and **Sources**
@@ -29,6 +30,19 @@ Secondary sources are fine for understanding something. They are never used to
 establish a figure, because they copy each other and an error spreads fast.
 
 ### Sources by video
+
+**002 — Your Paycheck, Line By Line**
+
+- IRS — *Topic no. 424, 401(k) plans*: elective deferrals are included as wages
+  subject to Social Security and Medicare withholding
+  <https://www.irs.gov/taxtopics/tc424>
+- IRS — *Topic no. 751*: Social Security and Medicare rates, wage base,
+  Additional Medicare tax
+  <https://www.irs.gov/taxtopics/tc751>
+- SSA — *Contribution and Benefit Base*: the 2026 Social Security wage base
+  <https://www.ssa.gov/oact/cola/cbb.html>
+- IRS — *Publication 15-T*: the actual withholding method
+  <https://www.irs.gov/pub/irs-pdf/p15t.pdf>
 
 **001 — Tax Brackets Don't Work The Way You Think**
 
