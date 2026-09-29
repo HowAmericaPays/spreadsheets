@@ -77,6 +77,15 @@
     <a class="dl" href="paycheck-breakdown-2026.xlsx" download>Download .xlsx</a>
   </div>
 
+  <div class="card">
+    <h3>Statement date simulator <span class="year">no year &mdash; nothing in it is annual</span></h3>
+    <p>Enter your credit limit, what you charge in a month, and what you leave on
+       the statement. Shows the balance your card reports, the utilization it
+       produces, and the same for every other amount you could leave. From the video
+       <em>Why Your Credit Utilization Is High When You Pay In Full</em>.</p>
+    <a class="dl" href="statement-date-simulator.xlsx" download>Download .xlsx</a>
+  </div>
+
   <h2>How figures are sourced</h2>
   <p style="color:var(--muted)">Every number is read on the page of the agency that
      issues the rule — the IRS, the CFPB, the SSA, the Department of Labor. Never
@@ -114,6 +123,11 @@
      becomes wrong on January 1st. When a year rolls over a new file is published
      next to the old one. The old one is never overwritten, because someone may
      have been using it for months.</p>
+  <p style="color:var(--muted)"><strong>A file with no year in its name holds
+     nothing annual.</strong> <code>statement-date-simulator.xlsx</code> is the
+     first of those: FICO&rsquo;s category weights, the 30% guidance and
+     12 CFR 1026.7 do not change on January 1st, so dating it would say something
+     false about it.</p>
 
   <footer>
     <p><strong>Educational information, not financial, tax, or legal advice.</strong>

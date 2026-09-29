@@ -13,6 +13,7 @@ Free, no signup, no email. They live here.
 |---|---|---|---|
 | 001 | Tax Brackets Don't Work The Way You Think | [bracket-calculator-2026.xlsx](bracket-calculator-2026.xlsx) | 2026 |
 | 002 | Your Paycheck, Line By Line | [paycheck-breakdown-2026.xlsx](paycheck-breakdown-2026.xlsx) | 2026 |
+| 003 | Why Your Credit Utilization Is High When You Pay In Full | [statement-date-simulator.xlsx](statement-date-simulator.xlsx) | none |
 
 Each file has three tabs: **Calculator** (type your numbers in the amber cell),
 **Rates** (the figures used, with the tax year in the header), and **Sources**
@@ -30,6 +31,23 @@ Secondary sources are fine for understanding something. They are never used to
 establish a figure, because they copy each other and an error spreads fast.
 
 ### Sources by video
+
+**003 — Why Your Credit Utilization Is High When You Pay In Full**
+
+- FICO — *Amounts owed*: credit utilization, the 30% weight of the category,
+  and the fact that your report carries the balance your lender reported,
+  typically your latest statement balance
+  <https://www.myfico.com/credit-education/credit-scores/amount-of-debt>
+- FICO — *What's in my FICO Scores*: the five categories and their weights
+  <https://www.myfico.com/credit-education/whats-in-your-credit-score>
+- CFPB — *Regulation Z*, 12 CFR 1026.7(b)(10): a statement must disclose the
+  closing date of the billing cycle and the balance outstanding on that date
+  <https://www.consumerfinance.gov/rules-policy/regulations/1026/7/>
+- CFPB — *How do I get and keep a good credit score?*: utilization, the 30%
+  guidance, and not needing to carry a balance
+  <https://www.consumerfinance.gov/ask-cfpb/how-do-i-get-and-keep-a-good-credit-score-en-318/>
+- CFPB — *Credit score myths that might be holding you back*
+  <https://www.consumerfinance.gov/about-us/blog/credit-score-myths-might-be-holding-you-back-improving-your-credit/>
 
 **002 — Your Paycheck, Line By Line**
 
@@ -72,6 +90,11 @@ Tax figures are dated. A file named `-2026` holds 2026 rules and becomes wrong
 on January 1st. When a year rolls over, a new file is published next to the old
 one — the old one is never overwritten, because someone may have been using it
 for months.
+
+**A file with no year in its name holds nothing annual.**
+`statement-date-simulator.xlsx` is the first of those: FICO's category weights,
+the 30% guidance and 12 CFR 1026.7 do not change on January 1st, so dating the
+file would say something false about it.
 
 ---
 
