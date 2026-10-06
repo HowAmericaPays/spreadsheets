@@ -14,6 +14,7 @@ Free, no signup, no email. They live here.
 | 001 | Tax Brackets Don't Work The Way You Think | [bracket-calculator-2026.xlsx](bracket-calculator-2026.xlsx) | 2026 |
 | 002 | Your Paycheck, Line By Line | [paycheck-breakdown-2026.xlsx](paycheck-breakdown-2026.xlsx) | 2026 |
 | 003 | Why Your Credit Utilization Is High When You Pay In Full | [statement-date-simulator.xlsx](statement-date-simulator.xlsx) | none |
+| 004 | 401(k) Matching: The Exact Formula Your Employer Uses | [match-calculator-2026.xlsx](match-calculator-2026.xlsx) | 2026 |
 
 Each file has three tabs: **Calculator** (type your numbers in the amber cell),
 **Rates** (the figures used, with the tax year in the header), and **Sources**
@@ -31,6 +32,25 @@ Secondary sources are fine for understanding something. They are never used to
 establish a figure, because they copy each other and an error spreads fast.
 
 ### Sources by video
+
+**004 — 401(k) Matching: The Exact Formula Your Employer Uses**
+
+- IRS — *Operating a 401(k) plan*: the basic safe harbor matching formula, and
+  that safe harbor employer contributions are always 100% vested
+  <https://www.irs.gov/retirement-plans/operating-a-401k-plan>
+- IRS — *401(k) plan overview*: a safe harbor plan is not subject to the complex
+  annual nondiscrimination tests, and must provide employer contributions that
+  are fully vested when made
+  <https://www.irs.gov/retirement-plans/plan-sponsor/401k-plan-overview>
+- IRS — *401(k) plan fix-it guide*, employer matching contributions: a match
+  calculated per payroll period rather than annually
+  <https://www.irs.gov/retirement-plans/401k-plan-fix-it-guide-employer-matching-contributions-werent-made-to-all-appropriate-employees>
+- IRS — *Issue Snapshot*, vesting schedules for matching contributions
+  (IRC 411(a)(2)(B))
+  <https://www.irs.gov/retirement-plans/issue-snapshot-vesting-schedules-for-matching-contributions>
+- IRS — IR-2025-111 / Notice 2025-67, and the COLA increases table: the 2026
+  deferral, catch-up, 415(c) and 401(a)(17) limits
+  <https://www.irs.gov/retirement-plans/cola-increases-for-dollar-limitations-on-benefits-and-contributions>
 
 **003 — Why Your Credit Utilization Is High When You Pay In Full**
 
