@@ -15,6 +15,7 @@ Free, no signup, no email. They live here.
 | 002 | Your Paycheck, Line By Line | [paycheck-breakdown-2026.xlsx](paycheck-breakdown-2026.xlsx) | 2026 |
 | 003 | Why Your Credit Utilization Is High When You Pay In Full | [statement-date-simulator.xlsx](statement-date-simulator.xlsx) | none |
 | 004 | 401(k) Matching: The Exact Formula Your Employer Uses | [match-calculator-2026.xlsx](match-calculator-2026.xlsx) | 2026 |
+| 005 | Deductible, Copay, Coinsurance, OOP Max — One Diagram | [care-path-simulator-2026.xlsx](care-path-simulator-2026.xlsx) | 2026 |
 
 Each file has three tabs: **Calculator** (type your numbers in the amber cell),
 **Rates** (the figures used, with the tax year in the header), and **Sources**
@@ -32,6 +33,20 @@ Secondary sources are fine for understanding something. They are never used to
 establish a figure, because they copy each other and an error spreads fast.
 
 ### Sources by video
+
+**005 — Deductible, Copay, Coinsurance, OOP Max**
+
+All six definitions are quoted word for word from the HealthCare.gov glossary,
+the official glossary of the federal Marketplace:
+
+- Premium <https://www.healthcare.gov/glossary/premium/>
+- Deductible <https://www.healthcare.gov/glossary/deductible/>
+- Copayment <https://www.healthcare.gov/glossary/co-payment/>
+- Coinsurance <https://www.healthcare.gov/glossary/co-insurance/>
+- Out-of-pocket maximum, including what does NOT count toward it and the 2026
+  legal limits <https://www.healthcare.gov/glossary/out-of-pocket-maximum-limit/>
+- Allowed amount and balance billing
+  <https://www.healthcare.gov/glossary/allowed-amount/>
 
 **004 — 401(k) Matching: The Exact Formula Your Employer Uses**
 
